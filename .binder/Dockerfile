@@ -1,5 +1,4 @@
-#FROM mjkramer/sim2x2:ndlar011
-FROM mjkramer/sim2x2:genie_DUNEv1.1
+FROM mjkramer/sim2x2:ndlar011
 
 # Install Jupyter
 RUN pip install --no-cache-dir notebook jupyterlab
