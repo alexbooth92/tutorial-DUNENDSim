@@ -1,5 +1,0 @@
-fire
-h5py
-matplotlib
-numpy
-tqdm
