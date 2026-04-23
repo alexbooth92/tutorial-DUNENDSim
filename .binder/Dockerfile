@@ -2,7 +2,7 @@ FROM mjkramer/sim2x2:ndlar011
 
 # Install Jupyter using system python. BH launches Jupyter itself, container venv python
 # only needed as a kernel.
-RUN pip install --no-cache-dir notebook jupyterlab RISE
+RUN pip install --no-cache-dir notebook jupyterlab jupyterlab-rise
 
 # Register the venv python as a named kernel.
 RUN /opt/venv/bin/pip install ipykernel && \
