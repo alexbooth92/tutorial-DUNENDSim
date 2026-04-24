@@ -1,5 +1,5 @@
 #include "TG4Event.h"
-#include "includes/gRooTracker.h"
+#include "gRooTracker.h"
 
 // Simple root macro meant to take in an output file from edep-sim
 // containing single neutrino interactions (from some flux) in the

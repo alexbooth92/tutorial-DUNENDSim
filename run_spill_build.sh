@@ -128,7 +128,7 @@ if [[ "$ND_PRODUCTION_USE_NU_TOF" == "0" ]]; then
   root -l -b -q \
       -e "gSystem->AddDynamicPath(\"$LIBTG4EVENT_DIR\"); \
           gSystem->Load(\"libTG4Event.so\")" \
-      "overlaySinglesIntoSpillsSorted.C(\"$sampleAInFile\", \"$sampleBInFile\", \"$spillFile\", $ND_PRODUCTION_INDEX, $ND_PRODUCTION_SAMPLE_A_POT, $ND_PRODUCTION_SAMPLE_B_POT, $ND_PRODUCTION_SPILL_POT, $ND_PRODUCTION_SPILL_PERIOD, $ND_PRODUCTION_REUSE_SAMPLE_B)"
+      "includes/overlaySinglesIntoSpillsSorted.C(\"$sampleAInFile\", \"$sampleBInFile\", \"$spillFile\", $ND_PRODUCTION_INDEX, $ND_PRODUCTION_SAMPLE_A_POT, $ND_PRODUCTION_SAMPLE_B_POT, $ND_PRODUCTION_SPILL_POT, $ND_PRODUCTION_SPILL_PERIOD, $ND_PRODUCTION_REUSE_SAMPLE_B)"
 elif [[ "$ND_PRODUCTION_USE_NU_TOF" == "1" ]]; then
   run root -l -b -q \
       -e  "gSystem->AddDynamicPath(\"$LIBTG4EVENT_DIR\"); \
