@@ -43,7 +43,7 @@ ARGS="--input_file $inFile --output_file $outFile"
 # the container already.)
 export CPATH=$EDEPSIM/include/EDepSim:$CPATH
 
-./convert_edepsim_roottoh5.py $ARGS
+./includes/convert_edepsim_roottoh5.py $ARGS
 
 #h5OutDir=$outDir/EDEPSIM_H5/$subDir
 #mkdir -p "$h5OutDir"
