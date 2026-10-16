@@ -2,11 +2,15 @@
 The base repository for a DUNE ND Simulation tutorial delivered for the first time as part of the HSF-India Project's Scientific Computing Workshops.
 
 
-To guide yourself through the exercises once your software environment is set up, use [`hdf5_ana.ipynb`](https://github.com/alexbooth92/tutorial-DUNENDSim/blob/main/hdf5_ana.ipynb) as a place to start.
+To guide yourself through the exercises once your software environment is set up, use [`hdf5_ana.ipynb`](https://github.com/alexbooth92/tutorial-DUNENDSim/blob/dune-tech-rice/hdf5_ana.ipynb) as a place to start.
 
 
-## If you are a participant in HSF-India
-To run, click on the following: [![Binder](https://mybinder.org/badge_logo.svg)](https://binderhub.ssl-hep.org/v2/gh/alexbooth92/tutorial-DUNENDSim/main?gpuModel=&gpuCount=0&cudaMajor=undefined&cudaMinor=undefined&site=nrp&memory=4.0&cpu=1&qos=Guaranteed)
+## If you are using the DUNE Tech JupyterHub
+Log in with GitHub at <https://dune-tech.rice.edu/jupyterhub/>, then click the following to clone this repository into your session:
+
+[nbgitpuller link](https://dune-tech.rice.edu/jupyterhub/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Falexbooth92%2Ftutorial-DUNENDSim&branch=dune-tech-rice&urlpath=lab%2Ftree%2Ftutorial-DUNENDSim%2F)
+
+The image is built from [`hub/Dockerfile`](hub/Dockerfile).
 
 
 ## If you wish to run on the DUNE GPVMs
