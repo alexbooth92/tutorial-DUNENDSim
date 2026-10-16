@@ -6,9 +6,9 @@ To guide yourself through the exercises once your software environment is set up
 
 
 ## If you are using the DUNE Tech JupyterHub
-Log in with GitHub at <https://dune-tech.rice.edu/jupyterhub/>, then click the following to clone this repository into your session:
+Log in with GitHub at [![DUNE Tech JupyterHub](https://img.shields.io/badge/Log%20in-DUNE%20Tech%20JupyterHub-F37626?logo=jupyter&logoColor=white)](https://dune-tech.rice.edu/jupyterhub/), then click the following to clone this repository into your session:
 
-[nbgitpuller link](https://dune-tech.rice.edu/jupyterhub/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Falexbooth92%2Ftutorial-DUNENDSim&branch=dune-tech-rice&urlpath=lab%2Ftree%2Ftutorial-DUNENDSim%2F)
+[![Clone the tutorial](https://img.shields.io/badge/Clone-tutorial--DUNENDSim-2EA44F?logo=git&logoColor=white)](https://dune-tech.rice.edu/jupyterhub/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Falexbooth92%2Ftutorial-DUNENDSim&branch=dune-tech-rice&urlpath=lab%2Ftree%2Ftutorial-DUNENDSim%2F)
 
 The image is built from [`hub/Dockerfile`](hub/Dockerfile).
 
