@@ -17,12 +17,7 @@ cd ~/tutorial-DUNENDSim
 apptainer exec -B /data/home/tutorial-DUNENDSim:/data/home/tutorial-DUNENDSim --env LC_ALL=C.UTF-8 --pwd /opt/generators/root /opt/images/tutorial-dunendsim_v1-kernel.sif bash -c "cd '$PWD'; unset BASH_ENV; export PYTHONPATH=/opt/ipykernel:\$PYTHONPATH; bash '$HOME/tutorial-DUNENDSim/hub/link_inputs.sh'; exec bash"
 ```
 
-`source` the environment
-```
-source /opt/environment
-```
-
-The image is built from [`hub/Dockerfile`](hub/Dockerfile).
+The image for this environment is built from [`hub/Dockerfile`](hub/Dockerfile).
 
 
 ## If you wish to run on the DUNE GPVMs
