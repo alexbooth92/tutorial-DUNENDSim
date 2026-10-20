@@ -14,7 +14,7 @@ Then open a terminal (File → New → Terminal) and launch the containerised en
 
 ```
 cd ~/tutorial-DUNENDSim
-apptainer exec -B /data/home/tutorial-DUNENDSim:/data/home/tutorial-DUNENDSim --env LC_ALL=C.UTF-8 --pwd /opt/generators/root /opt/images/tutorial-dunendsim_v1-kernel.sif bash -c "cd '$PWD'; unset BASH_ENV; export PYTHONPATH=/opt/ipykernel:\$PYTHONPATH; bash '$HOME/tutorial-DUNENDSim/link_inputs.sh'; exec bash"
+apptainer exec -B /data/home/tutorial-DUNENDSim:/data/home/tutorial-DUNENDSim --env LC_ALL=C.UTF-8 --pwd /opt/generators/root /opt/images/tutorial-dunendsim_v1-kernel.sif bash -c "cd '$PWD'; unset BASH_ENV; export PYTHONPATH=/opt/ipykernel:\$PYTHONPATH; bash '$HOME/tutorial-DUNENDSim/hub/link_inputs.sh'; exec bash"
 ```
 
 `source` the environment
