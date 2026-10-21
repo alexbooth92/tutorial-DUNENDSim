@@ -30,19 +30,4 @@ The image for this environment is built from [`hub/Dockerfile`](hub/Dockerfile).
 
 
 ## If you wish to run on the DUNE GPVMs
-Follow the steps below to set up your environment to enable you to complete Sections 0 through 4. Section 5, where you will analyse the NDLAr HDF5 file you will produce in Section 4, can be completed wherever you like work with python. For example, using a basic virtual environment that contains `h5py`, `matplotlib`, `math` and `numpy`.
-
-
-From a completely fresh login on the GPVMs (no need to `setup_dune.sh` etc), launch the containerised environment for the tutorial using apptainer:
-
-```
-/cvmfs/oasis.opensciencegrid.org/mis/apptainer/current/bin/apptainer shell --shell=/bin/bash -B ${PWD} /cvmfs/singularity.opensciencegrid.org/dunescience/sim2x2:ndlar011
-```
-
-`source` the environment
-```
-source /opt/environment
-```
-
-
-That's it!
+Checkout the `main` branch of this repository and follow the instructions there.
