@@ -690,4 +690,9 @@ def dump(input_file, output_file, is_cosmic_sim=False, is_mpvmpr=False, keep_all
         np.concatenate(genie_hdr_list, axis=0) if genie_hdr_list else np.empty((0,)))
 
 if __name__ == "__main__":
+    # Work around python-fire --help crashing with IPython >= 9
+    # (Inspector now requires a theme_name argument).
+    import functools
+    from IPython.core import oinspect
+    oinspect.Inspector = functools.partial(oinspect.Inspector, theme_name="neutral")
     fire.Fire(dump)
