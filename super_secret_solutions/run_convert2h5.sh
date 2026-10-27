@@ -16,7 +16,7 @@ export CPATH=$EDEPSIM/include/EDepSim:$CPATH
 
 
 # Execute the conversion script.
-./includes/convert_edepsim_roottoh5.py --input_file ${ND_PRODUCTION_OUT_DIR}/${ND_PRODUCTION_IN_FILE} --output_file ${ND_PRODUCTION_OUT_DIR}/${ND_PRODUCTION_OUT_FILE}
+./includes/convert_edepsim_roottoh5.py ${ND_PRODUCTION_OUT_DIR}/${ND_PRODUCTION_IN_FILE} ${ND_PRODUCTION_OUT_DIR}/${ND_PRODUCTION_OUT_FILE}
 
 
 echo ""
