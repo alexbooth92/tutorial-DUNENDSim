@@ -10,7 +10,7 @@ There is one entry per GENIE interaction in the array.
 
 + `event_id`: unique ID for an interesting window of time; for beam events this corresponds to a spill
 + `vertex_id`: the vertex ID number, corresponds to an individual generator interaction
-+ `vertex`: the position of the interaction vertex (x,y,z,t) in [cm]
++ `*_vert`: the position of the interaction vertex, including time (x,y,z,t) in [cm, us].
 + `target`: the Z value of the struck nucleus
 + `reaction`: an integer enumeration for the different GENIE reactions. Positive int for neutrino, negative int for anti-neutrino events. Some numbers reserved for future use.
 ```    
